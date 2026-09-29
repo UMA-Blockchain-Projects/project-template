@@ -4,9 +4,9 @@
 
 ## Equipo
 
-- Nombre
-- Nombre
-- Nombre
+- Nombre — `@github`
+- Nombre — `@github`
+- Nombre — `@github`
 
 ## Problema
 
@@ -22,18 +22,25 @@ Explicad brevemente vuestra propuesta y cómo funciona.
 
 Añadid un diagrama sencillo y describid los principales componentes.
 
-Para más detalle podéis utilizar [`docs/`](docs/).
+Para documentación adicional podéis utilizar [`docs/`](docs/).
 
 ## Tecnologías
 
 - **Blockchain / red:**
-- **Smart contracts:**
-- **Frontend:**
+- **Smart contracts:** Solidity + Foundry
+- **dApp:**
 - **Otros componentes:**
 
 ## Estructura del repositorio
 
-Explicad brevemente los directorios principales.
+```text
+exercises/         Ejercicios realizados durante la asignatura
+smart-contracts/   Smart contracts y proyecto Foundry
+dapp/              Aplicación e integración con los smart contracts
+docs/              Documentación adicional del proyecto
+```
+
+Podéis adaptar esta estructura si vuestro proyecto lo necesita.
 
 ## Cómo ejecutar el proyecto
 
@@ -53,11 +60,13 @@ Explicad brevemente los directorios principales.
 
 Indicad los contratos principales y qué responsabilidad tiene cada uno.
 
+El proyecto Foundry se encuentra en [`smart-contracts/`](smart-contracts/).
+
 ## Despliegues
 
-| Red | Contrato | Dirección |
-|---|---|---|
-| | | |
+| Red  | Contrato | Dirección |
+| ---- | -------- | --------- |
+|      |          |           |
 
 ## Testing
 
