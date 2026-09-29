@@ -1,0 +1,21 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Build / generated files
+dist/
+build/
+out/
+cache/
+artifacts/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
